@@ -2,9 +2,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 class DBConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/employee_db";
+    private static final String URL = "jdbc:mysql://localhost:3306/employeee_db";
     private static final String USER = "root"; 
-    private static final String PASSWORD = "your_mysql_password";
+    private static final String PASSWORD = "system";
 
     public static Connection getConnection() {
         try {
@@ -15,3 +15,4 @@ class DBConnection {
         return null;
     }
 }
+
